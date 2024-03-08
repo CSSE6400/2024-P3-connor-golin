@@ -1,4 +1,4 @@
- FROM python:3.10
+ FROM ubuntu:22.04 
  # Installing dependencies for running a python application 
  RUN apt-get update && apt-get install -y python3 python3-pip postgresql-client libpq-dev 
  # Install poetry 
